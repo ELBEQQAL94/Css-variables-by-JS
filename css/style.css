@@ -1,0 +1,48 @@
+/* Start Man Rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #f2395a
+}
+/* End Man Rules */
+
+/* Start Style My Design */
+.control
+{
+    position: relative;
+    margin: 20% auto;
+    width: 100%;
+    text-align: center
+}
+label
+{
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold
+}
+.result
+{
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    background-color: var(--background-color);
+    margin: auto;
+    margin-top: 4em;
+    border-radius: var(--border-radius)
+}
+:root
+{
+    --border-radius: 10px;
+    --background-color: #ffc600
+}
+/* End Style My Design */
